@@ -54,7 +54,6 @@ jobs:
   terraform:
     name: 'Terraform'
     runs-on: ubuntu-latest
-    environment: production
     env:
       TF_VAR_hcloud_token: ${{ secrets.HCLOUD_TOKEN }}
 
